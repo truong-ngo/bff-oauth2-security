@@ -1,0 +1,21 @@
+<div *ngIf="!!data">
+  <p>Token info</p>
+  <span>subject: </span><span>{{ data["subject"] }}</span>
+</div>
+
+<div *ngIf="!data">
+  <button (click)="login()">Login</button>
+</div>
+
+<div *ngIf="!!data">
+  <button (click)="logout()">Logout</button>
+</div>
+
+<div *ngIf="!!publicData">
+  <p>Public data</p>
+  <span>Key: </span><span>{{ publicData["public-data"] }}</span>
+</div>
+
+<div *ngIf="!publicData">
+  <button (click)="fetch()">Fetch</button>
+</div>

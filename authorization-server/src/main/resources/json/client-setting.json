@@ -1,0 +1,5 @@
+{
+  "@class": "java.util.Collections$UnmodifiableMap",
+  "settings.client.require-proof-key": false,
+  "settings.client.require-authorization-consent": false
+}
